@@ -1,0 +1,21 @@
+.checkform{
+  background-image: url("/assets/images/Vector Smart Object.png");
+  background-size: cover;
+}
+
+.check{
+  width: 200px;
+  height: 40px;
+}
+
+$btnblack:#282828;
+
+.btn{
+  background-color: $btnblack;
+  color: $white;
+  border: none;
+  a{
+    padding-bottom: 10px;
+  }
+}
+

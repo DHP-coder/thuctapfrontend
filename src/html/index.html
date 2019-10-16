@@ -1,0 +1,14 @@
+---
+author: Frontend Team
+ourTeam: My Team
+---
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}page-home{% endblock %}
+{% block content %}
+<main id="main-content" class="main-content">
+  {% include "modules/banner.html" %}
+  {% include "modules/checkbook.html" %}
+  {% include "modules/rooms.html" %}
+  {% include "modules/inquiry.html" %}
+</main>
+{% endblock %}

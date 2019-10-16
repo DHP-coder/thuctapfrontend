@@ -1,0 +1,42 @@
+@include media-breakpoint-up(sm) {
+  .main-content {
+    padding-top: 60px;
+  }
+  .banner--title {
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 200px;
+    width: 600px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .main-content {
+    padding-top: 55px;
+  }
+  .banner--title {
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+  .last-lg-none {
+    // @extend %last;
+    >*:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .touch {
+    * {
+      cursor: pointer;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .container {
+    max-width: $media-xl;
+  }
+}
+

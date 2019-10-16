@@ -1,0 +1,35 @@
+.rooms{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.rooms-header{
+  text-align: center;
+}
+.room-green{
+  margin-top: 50px;
+}
+
+.room-blue{
+  margin-top: 50px;
+}
+
+.room-violet{
+  margin-top: 50px;
+}
+
+.room-rules{
+  margin-top: 50px;
+}
+
+.text-rules{
+  display: inline-grid;
+}
+
+.btn-book{
+  width: 250px;
+  background-color: $green;
+}
+.btn-view{
+  width: 250px;
+}
